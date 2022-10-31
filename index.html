@@ -1,0 +1,100 @@
+<!doctype html>
+    <html lang="fr">
+    <head>
+      <meta charset="utf-8">
+      <title>Portfolio Syphax</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/log.png" />
+
+
+    </head>
+    <body>
+    <header>
+        <main class="main">
+    <!-- Menu de navigation  -->
+      <marquee>
+        Etudiant en deuxième année BACHELOR DEVELOPPEMENT WEB au sein de digital campus paris.
+    </marquee>
+      <div id="mySidenav" class="sidenav">
+        <a id="closeBtn" href="#" class="close">×</a>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="cv.html">CV Syphax</a></li>
+          <li><a href="motiv.html">Lettre Motiv</a></li>
+          <li><a href="php.php">Contactez-moi</a></li>
+        </ul>
+      </div>
+      
+      <a href="#" id="openBtn">
+        <span class="burger-icon">
+            <img src="img/icone.png">
+        </span>
+      </a>
+      
+      <script>
+        let sidenav = document.getElementById("mySidenav");
+        let openBtn = document.getElementById("openBtn");
+        let closeBtn = document.getElementById("closeBtn");
+
+        openBtn.onclick = openNav;
+        closeBtn.onclick = closeNav;
+
+        function openNav() {
+        sidenav.classList.add("active");
+        }
+        function closeNav() {
+        sidenav.classList.remove("active");
+        }
+</script>
+        
+      <!-- image princiale -->
+    <img class="img_main"src="img/pr.png">
+    <article class="barre1">
+        <div class="barre11">
+          <h1 >BOUREKKACHE Syphax</h1>
+          <p>Agé de 21ans,  actuellement à la recherche d´un contrat dapprentissage,  pour la rentrée d´octobre 2022, 
+            en tant que développeur full-stack.
+            3 jours en entreprise/ 2 jours en école. </p>
+          <p>Etudiant en deuxième année BACHELOR DEVELOPPEMENT WEB au sein de digital campus paris.</p>
+        </div>
+        <div class="imagebarre1">
+          <img src="img/syphax.png" class="B">
+        </div>  
+      </article>   
+
+
+
+      <!-- article numero 2 -->
+    <article class="barre2">
+        <div class="barre22">
+          <h1>Mon plus grand travail:</h1>
+          
+               </div>
+        <div class="imagebarre2">
+          <img  class="A" src="img/tr1.png">
+          <img class="A" src="img/tr2.png">
+          <img  class="A"src="img/tr3.png">
+        </div>  
+      </article>   
+      <br>
+      
+    
+      <br>
+      
+      
+      <article class="barre5" >
+        <h1 class="titre" >Mes plus grandes passions:</h1>
+        <div class="imagebarre5">
+      
+          
+          <img  class="a" src="img/act1.png">
+         
+          <img class="a" src="img/act2.png">
+          
+          <img  class="a"src="img/act3.png">
+          
+          
+        </div>  
+       </article> 
